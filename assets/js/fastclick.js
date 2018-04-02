@@ -8,7 +8,7 @@ new Vue({
         colors:['#9bcd77','#d777b0','#fed401','#ff2c3c', '#66c652']
     },
 
-    ready:function(){
+    mounted:function(){
       console.log('test123');
         var self = this;
         setInterval(function(){
