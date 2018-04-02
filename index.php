@@ -4,6 +4,7 @@
   <head>
     <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css">
 
   </head>
 
@@ -24,6 +25,7 @@
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+      <script src='assets/js/jquery-ui.js'></script>
       <script src='assets/js/fastclick.js'></script>
 
   </body>
