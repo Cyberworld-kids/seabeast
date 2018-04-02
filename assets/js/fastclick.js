@@ -24,7 +24,7 @@ new Vue({
     },
 
     methods: {
-        updateCount: function () {
+      updateCount: function () {
             this.numClicks += 1;
             if(this.active == false){
                 this.secs = 10;
