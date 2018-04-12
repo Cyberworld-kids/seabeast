@@ -4,30 +4,30 @@ new Vue({
     data: {
         active:false,
         numClicks: 0,
-        secs: 10,
+        secs: 1000,
         colors:['#9bcd77','#d777b0','#fed401','#ff2c3c', '#66c652']
     },
 
     mounted:function(){
       console.log('test123');
         var self = this;
-        setInterval(function(){
-            if(self.active){
-                self.secs--;
-                if(self.secs == 0){
-                    self.active = false;
-                    $( "button" ).addClass("over");
-                    $("#status").html('<h2>Game Over</h2>');
-                }
-            }
-        },1000);
+        // setInterval(function(){
+        //     if(self.active){
+        //         self.secs--;
+        //         if(self.secs == 0){
+        //             self.active = false;
+        //             $( "button" ).addClass("over");
+        //             $("#status").html('<h2>Game Over</h2>');
+        //         }
+        //     }
+        // },1000);
     },
 
     methods: {
       updateCount: function () {
             this.numClicks += 1;
             if(this.active == false){
-                this.secs = 10;
+                this.secs = 1000;
                 this.numClicks = 0;
                 this.active = true;
             }

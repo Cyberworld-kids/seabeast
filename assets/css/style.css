@@ -12,14 +12,15 @@ body {
 
 button {
   position: relative;
-  top: 100px;
+
   border: none;
   color: #fff;
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 550px;
   transition: 0.3s;
-  border-radius: 50%;
-  background-color: #f2ca27;
+
+  background-color: transparent;
+  background-image: url('../img/cthulhu-head.png');
 }
 button:active {
   width: 190px;
