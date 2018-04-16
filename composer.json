@@ -1,0 +1,10 @@
+{
+    "name": "student/seabeast",
+    "authors": [
+        {
+            "name": "jay",
+            "email": "jaylong255@gmail.com"
+        }
+    ],
+    "require": {}
+}
